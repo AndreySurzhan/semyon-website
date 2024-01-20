@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <script defer src="script.js"></script>
-        <title>Semyon's website</title>
-    </head>
-    <body>
-        <header>
-            <h1>
-                Semyon's website 
-            </h1>
-        </header>
-        <main>
-            <div class="calculator">
-                <h2>ADDITION</h2>
-                <input id="addition-input-1" type="number">
-                <span> + </span>
-                <input id="addition-input-2" type="number">
-                <button id="addition-button">Calculate</button>
-                <p>
-                    Result: <span id="addition-result"></span>
-                </p>
-            </div>
-            <div class="calculator">
-                <h2>SUBTRACTION</h2>
-                <input id="subtraction-input-1" type="number">
-                <span> - </span>
-                <input id="subtraction-input-2" type="number">
-                <button id="subtraction-button">Calculate</button>
-                <p>
-                    Result: <span id="subtraction-result"></span>
-                </p>
-            </div>
-            <div>
-                <h2>TIME</h2>
-                <input id="subtraction-input-1" type="number">
-                <input id="subtraction-input-2" type="number">
-                <input id="subtraction-input-3" type="number">
-                <button id="subtraction-button">Show</button>
-                
-            </div>
-        </main>
-        <footer>
-            <p class="footer-p">
-                Dad and Semyon's coding
-            </p>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Semyon's website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Semyon's website</h1>
+    </header>
+    <main>
+      <div class="calculator">
+        <h2>ADDITION</h2>
+        <input id="addition-input-1" type="number" />
+        <span> + </span>
+        <input id="addition-input-2" type="number" />
+        <button id="addition-button">Calculate</button>
+        <p>Result: <span id="addition-result"></span></p>
+      </div>
+
+      <div class="calculator">
+        <h2>SUBTRACTION</h2>
+        <input id="subtraction-input-1" type="number" />
+        <span> - </span>
+        <input id="subtraction-input-2" type="number" />
+        <button id="subtraction-button">Calculate</button>
+        <p>Result: <span id="subtraction-result"></span></p>
+      </div>
+
+      <div>
+        <h2>F° and C° converter</h2>
+        <input id="converter-input" type="number" />
+        <label for="converter-input">degrees</label>
+
+        <input id="converter-input-c" type="radio" />
+        <label for="converter-input-c">convert to c</label>
+
+        <input id="converter-input-f" type="radio" />
+        <label for="converter-input-f">convert to f</label>
+
+        <p>
+          Result:
+          <span id="converter-result"></span>
+          <span id="converter-result-degrees">C°</span>
+        </p>
+        <button id="converter-button">Calculate</button>
+      </div>
+
+      <div>
+        <h2>TIME</h2>
+        <input id="subtraction-input-1" type="number" />
+        <input id="subtraction-input-2" type="number" />
+        <input id="subtraction-input-3" type="number" />
+        <button id="subtraction-button">Show</button>
+      </div>
+    </main>
+    <footer>
+      <p class="footer-p">Dad and Semyon's coding</p>
+    </footer>
+  </body>
 </html>
